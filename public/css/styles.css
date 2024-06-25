@@ -1,0 +1,54 @@
+@charset "utf-8";
+.center {
+	text-align: center;
+}
+
+.bodyStyle {
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'sans-serif';
+	font-size: 15px;
+}
+
+.mainHeader {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 60px;
+	line-height: 66px;
+	color: #000;
+	text-align: center;
+	position: relative;
+}
+.loginButton{
+	position: absolute;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 0 30px;
+	right: 30px;
+	top: 25px;
+}
+.loginButton:hover{
+	box-shadow: 3px 3px 3px #242424;
+}
+
+.cursiveText {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000;
+	text-align: center;
+}
+
+header, main, section {
+	padding: 16px;
+}
+
+.bg-gainsboro {
+	background-color: gainsboro;
+}
+
+.bg-cornsilk {
+	background-color: cornsilk;
+}
